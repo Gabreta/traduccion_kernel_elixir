@@ -55,3 +55,9 @@ Los modulos que interactuan con dicho sistema, son:
 * `System` - Lee y escribe informacion del sistema.
 
 ## Protocolos
+Los protocolos agregan un envio poliformico a Elixir. Estos son contratos inplementables por los tipos de datos. Ver `defprotocol/2` para mas informacion en protocolos. Elixir provee los siguientes protocolos en su libreria estandar:
+* `Collectable` - Reune datos en un tipo de datos
+* `Enumerable` - Manipula las colecciones en Elixir. El modulo `Enum` provee funciones vehementemente para trabajar con colecciones, el modulo `Stream` provee de funciones vagas.
+* `Inspect` - Convierte el tipo de datos en su representacion de lenguaje de programacion.
+* `List.Chars` - Convierte el tipo de datos en la representacion que hay en el mundo exterior como lista de caracteres (No basados en programacion).
+* `String.Chars` - Convierte el tipo de datos en la representacion que hay en el mundo exterior como strings (no basado en la programacion).
