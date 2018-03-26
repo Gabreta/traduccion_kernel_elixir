@@ -28,6 +28,30 @@ Los siguientes modulos manejan los tipos de datos integrados en Elixir:
 * `Tuple` - Colecciones de un numero fijo de elementos
 
 Hay tres tipos de datos sin un modulo que los acompañe:
-* Bitstrings - Una secuencia de bits, creado con `Kernel.SpecialForms<<>>/1`. Cuando el numero de bits es divisible por 8, son llamados binarios y pueden ser usados por el modulo de Earlang `:binary.
+* Bitstrings - Una secuencia de bits, creado con `Kernel.SpecialForms<<>>/1`. Cuando el numero de bits es divisible por 8, son llamados binarios y pueden ser usados por el modulo de Earlang `:binary`.
 * Function - Una referencia a un fragmento de codigo, creado con la forma especial `Kernel.SpecialForms.fn/2`.
 * Reference - Un unico valor en el tiempo de ejecucion del sistema, creado con `make_ref/0`.
+
+## Tipo de Datos
+Elixir tambien proveen otro tipo de datos que estan construidos con los tipos mencionados anteriormente, Algunos de ellos pueden ser:
+* `Date` - Estructura dada en un calendario `Año-Mes-Dia`.
+* `DateTime` - Hora y fecha con zona horaria dada en un calendario.
+* `Exception` - Datos generados por errores y escenarios inesperados.
+* `MapSet` - Colecciones desordenadas de elementos unicos.
+* `NaiveDateTime` - Hora y fecha sin zona horaria dada en un calendario.
+* `Keyword` - Lista de dos tuplas de elementos, a menudo representando valores opcionales.
+* `Range` - Inclusion de rango entre dos enteros.
+* `Regex` - Expresiones Regulares.
+* `String` - Representacion de caracteres binarios codificados en UTF-8.
+* `Time` - Estructura obtenida por el calendario enfocado en `hora:minuto:segundo`.
+* `URI` -  Representacion recursos que identifican URI.
+* `Version` - Representacion de versiones y requerimietos.
+
+## Modulos del sistema
+Los modulos que interactuan con dicho sistema, son:
+* `IO` - Manejo de entradas y salidas.
+* `File` - Interactua con el sistema de archivos subyacente.
+* `Path` - Manipula las rutas del sistema de archivos.
+* `System` - Lee y escribe informacion del sistema.
+
+## Protocolos
