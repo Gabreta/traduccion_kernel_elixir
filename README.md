@@ -61,3 +61,23 @@ Los protocolos agregan un envio poliformico a Elixir. Estos son contratos inplem
 * `Inspect` - Convierte el tipo de datos en su representacion de lenguaje de programacion.
 * `List.Chars` - Convierte el tipo de datos en la representacion que hay en el mundo exterior como lista de caracteres (No basados en programacion).
 * `String.Chars` - Convierte el tipo de datos en la representacion que hay en el mundo exterior como strings (no basado en la programacion).
+
+## Funcionalidades basadas en el proceso y centrado de la aplicacion
+Los siguientes modulos se basan en los procesos para presentar concurrencia, tolerancia a fallos, y mas...
+* `Agent` - Un modulo que encapsula el estado mutable.
+* `Application` - Funciones para iniciar, detener y configurar aplicaciones.
+* `GenServer` - Una API generica cliente-servidor.
+* `Registry`- Un proceso llave-valor basada en almacenamiento.
+* `Supervisor` - Un proceso que es responsable de iniciar, supervisar y apagar otros procesos.
+* `Task` - Un proceso que realice calculos
+* `Task.Supervisor` - Un supervisor para la gestion exclusiva de tareas.
+
+## Documentos de Soporte
+La documentacion de Elixir tambien incluye documentacion de soporte en la seccion de "paginas"- Estas son:
+* [Desuso u obsolencia](https://hexdocs.pm/elixir/deprecations.html) - Lista de todas las funciones em desuso, cuando las hay y sus respectivas alternativas.
+* [Guardas](https://hexdocs.pm/elixir/guards.html) - Lista de todos los guardas y extensiones disponibles.
+* [Convenciones de Nombres](https://hexdocs.pm/elixir/naming-conventions.html) - Nombrado por convencion para el lenguaje Elixir.
+* [Operadores](https://hexdocs.pm/elixir/operators.html) - Lista de todos los operadores y su respectiva prioridad.
+* [Referencia de Sintaxis](https://hexdocs.pm/elixir/syntax-reference.html) - Referido a la sintaxis del lenguaje.
+* [Syntaxis Unicode](https://hexdocs.pm/elixir/unicode-syntax.html) - Nocion general del soporte de Elixir para Unicode.
+* [Escritura de Documentacion](https://hexdocs.pm/elixir/writing-documentation.html) - Pautas para escribir documentacion en Elixir.
