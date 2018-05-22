@@ -90,17 +90,19 @@ La mayoria de las funciones en linea pueden mostrar su efecto al capturarse la f
 iex> &Kernel.is_atom/1
 &:erlang.is_atom/1
 ```
-Estas funciones van a ser usadas como marcador explicito en su documentacion como "subrayado por el compilador**.
+Estas funciones van a ser usadas como marcador explicito en su documentacion como "subrayado por el compilador".
 
 # Resumen
 ## Funciones
 
 **!value**
  *Boleano No*
+ 
 **left != right**
  *Retorna Correcto(true) si las dos secciones no son iguales*
+ 
 **left !== right**
  *Retorna Correcto(true) si las dos secciones no son exactamente iguales*
+ 
 **left && right**
  *Proporciona un operador de corto-circuito que evalua y devuelve la segunda expresion solo si la primera se evalua como correcta (es decir, no es nula ni es falsa). Devuelve la primera expresion de lo contrario*
-
