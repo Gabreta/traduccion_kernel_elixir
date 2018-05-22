@@ -106,3 +106,15 @@ Estas funciones van a ser usadas como marcador explicito en su documentacion com
  
 **left && right**
  *Proporciona un operador de corto-circuito que evalua y devuelve la segunda expresion solo si la primera se evalua como correcta (es decir, no es nula ni es falsa). Devuelve la primera expresion de lo contrario*
+ 
+**left * right**
+ *Multiplicacion aritmetica*
+
+**+value**
+ *Suma del valor a uno*
+ 
+**left + right**
+ *Adicion Aritmetica*
+
+**left ++ right**
+ *Contatena una lista y un termino, devolviendo una lista*
