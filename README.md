@@ -81,3 +81,26 @@ La documentacion de Elixir tambien incluye documentacion de soporte en la seccio
 * [Referencia de Sintaxis](https://hexdocs.pm/elixir/syntax-reference.html) - Referido a la sintaxis del lenguaje.
 * [Syntaxis Unicode](https://hexdocs.pm/elixir/unicode-syntax.html) - Nocion general del soporte de Elixir para Unicode.
 * [Escritura de Documentacion](https://hexdocs.pm/elixir/writing-documentation.html) - Pautas para escribir documentacion en Elixir.
+
+## Subrayado
+Muchas de las funciones descritas en este modulo son subrayadas por el compilador de Elixir en su contraparte a Earlang en el modulo `:earlang` [Modulo](www.erlang.org/doc/man/erlang.html). Esas funciones son llamadas BIFs(built-in internal functions en español Funciones Internas Incorporadas) en el mundo de earlang y exhiben propiedades interesantes, como algunos de estos son almacenados como guardas y otras son usadas para optimizar el compilador.
+
+La mayoria de las funciones en linea pueden mostrar su efecto al capturarse la funcion, asi:
+```elixir
+iex> &Kernel.is_atom/1
+&:erlang.is_atom/1
+```
+Estas funciones van a ser usadas como marcador explicito en su documentacion como "subrayado por el compilador**.
+
+# Resumen
+## Funciones
+
+**!value**
+ *Boleano No*
+**left != right**
+ *Retorna Correcto(true) si las dos secciones no son iguales*
+**left !== right**
+ *Retorna Correcto(true) si las dos secciones no son exactamente iguales*
+**left && right**
+ *Proporciona un operador de corto-circuito que evalua y devuelve la segunda expresion solo si la primera se evalua como correcta (es decir, no es nula ni es falsa). Devuelve la primera expresion de lo contrario*
+
