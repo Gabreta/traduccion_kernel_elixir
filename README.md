@@ -135,3 +135,35 @@ iex> y = [3,2,4]
 iex> x -- y
 [1]
 ```
+
+**first..last**
+ *Retorna un rango con el primero y ultimo enteros especificados*
+ 
+**left / right**
+ *Division aritmetica*
+
+**left < right**
+ *Retorna Correcto(true) si "left" es menor que "right"*
+
+**left <= right**
+ *Retorna Correcto(true) si "left" es menor o igual que "right"*
+
+**left <> right**
+ *Concatena dos binarios*
+```elixir
+iex> x = "a"
+"a"
+iex> y = "b"
+"b"
+iex> x <> y
+"ab"
+```
+
+**left == right**
+ *Retorna Correcto(true) si el primer y segundo elemento son iguales*
+ 
+**left === right**
+ *Retorna Correcto(true) si el primer y segundo elemento son exactamente iguales*
+
+**left =~ right**
+ *Coincide con el término de la izquierda en contra de la expresión regular o cadena a la derecha*
