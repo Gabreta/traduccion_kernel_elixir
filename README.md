@@ -118,3 +118,20 @@ Estas funciones van a ser usadas como marcador explicito en su documentacion com
 
 **left ++ right**
  *Contatena una lista y un termino, devolviendo una lista*
+
+**-value**
+ *resta del valor a uno*
+ 
+**left - right**
+ *Sustraccion aritmetica*
+ 
+**left -- right**
+ *Elimina la primera coincidencia de un elemento en la lista "left" para cada elemento de la derecha*
+```elixir
+iex> x = [1,2,3]
+[1, 2, 3]
+iex> y = [3,2,4]
+[3, 2, 4]
+iex> x -- y
+[1]
+```
