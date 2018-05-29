@@ -167,3 +167,84 @@ iex> x <> y
 
 **left =~ right**
  *Coincide con el término de la izquierda en contra de la expresión regular o cadena a la derecha*
+ 
+**left > right**
+ *Retorna Correcto(true) si el elemento de la izquierda es mayor que el de la derecha*
+ 
+**left >= right**
+ *Retorn Correcto(true) si el elemento de la izquierda es mayor o igual al elemento de la derecha*
+
+**@expr**
+ *Lee y Escribe atributos del modulo actual*
+ 
+**abs(number)**
+ *Retorna un entero o flotante el cual es el valor absoluto aritmetico de `number`*
+ 
+**alias!(alias)**
+*Cuando se utiliza dentro de las citas, indica que el alias dado no debe higienizarse. Esto significa que el alias se expandira cuando la macro se expanda*
+
+**left and right**
+ *Boleano AND*
+ 
+**apply(fun, args)**
+ *Invoca el valor dado `fun` con la lista de argumentos `args`*
+ 
+**apply(module, fun, args)**
+ *Invoca el valor dado `fun` del modulo `module` con la lista de argumentos `args`*
+ 
+**binary_part(binary, start, length)**
+ *Extrae la parte del binario inicial en `start` con el tamaño `length`, Los binarios son indexados desde cero*
+ 
+**binding(contect \\ nil)**
+ *Retorna el enlace para el contexto dado como una lista de palabras clave*
+ 
+**bit_size(bitstring)**
+ *Retorna un entero el cual es el tamaño de los bits de `bistring`*
+
+**byte_size(bitstring)**
+ *Retorna el numero de bytes necesarios para contener `bitstring`*
+ 
+**def(call, expr \\ nil)**
+ *Define una funcion con el nmbre dado y un cuerpo*
+ 
+**defdelegate(funs, opts)**
+ *Define una funcion que es el delegado a otro modulo*
+ 
+**defexception(fields)**
+ *Define una excepcion*
+ 
+**defguard(guard)**
+*Genera una macro adecuada para usar en expresiones de gurdas*
+
+**defguardp(guard)**
+ *Genera una macro privada adecuada para uso en expresiones dentro de los guardas*
+ 
+**defimpl(name, opts, do_block \\ [])**
+ *Define una implementacion para el protocolo dado*
+
+**defmacro(call, expr \\ nil)**
+ *Define un macro con el nombre y cuerpo dados*
+ 
+**defmacrop(call. expr \\ nil)**
+ *Define una macro privada con el nombre y cuerpo dados*
+ 
+**defmodule(alias, do_block)**
+ *Define un modulo dados por el nombre con los contenidos dados*
+ 
+**defoverridable(keyword_or_behavior)**
+ *Hace la funcion dada en el modulo sean reemplazables*
+ 
+**defp(call, expr \\ nil)**
+ *Define una funcion privada con el nombre y cuerpo dados*
+ 
+**defprotocol(name, do_block)**
+ *Define un protocolo*
+ 
+**defstruct(fields)**
+ *Define una estructura*
+ 
+**destructure(left, right)**
+ *Hace que las funciones dadas en el modulo actual sean reemplazables*
+ 
+**div(dividend, divisor)**
+ *Realiza una division entera*
